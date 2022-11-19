@@ -1,0 +1,32 @@
+$(".nave").click(
+    function(){
+        $(".nave").animate({top:'5%'});
+        $(".nave").animate({top:'22%'});
+    }
+)
+
+$("#let1").click(
+    function(){
+        $("#let1").fadeOut();
+    }
+)
+$("#let2").click(
+    function(){
+        $("#let2").fadeOut();
+    }
+)
+$("#let3").click(
+    function(){
+        $("#let3").fadeOut();
+    }
+)
+$("#let4").click(
+    function(){
+        $("#let4").fadeOut();
+    }
+)
+$("#let5").click(
+    function(){
+        $("#let5").fadeOut();
+    }
+)

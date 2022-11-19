@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+}
+/* *{
+	border: 1px solid red;
+} */
+
+.cont{
+	display: grid;
+	grid-template: 400px 60px / 100% 100% 100% 100% 100%;
+	grid-template-areas: "uno dos tres cuatro cinco"
+						 "piso1 piso2 piso3 piso4 piso5";
+	width: 100%;
+}
+
+.cont .hijo1{
+	position: relative;
+	grid-area: uno;
+}
+
+.cont .hijo2{
+	position: relative;
+	grid-area: dos;
+}
+.cont .hijo2 .bg2,.bg3,.bg4,.bg5,.bg1{
+	width: 100%;
+	height: 100%;
+}
+
+.cont .hijo3{
+	position: relative;
+	grid-area: tres;
+}
+
+.cont .hijo4{
+	position: relative;
+	grid-area: cuatro;
+}
+
+.cont .hijo5{
+	position: relative;
+	grid-area: cinco;
+}
+
+.cont .calle{
+	grid-area: piso1;
+}
+.calle2{
+	grid-area: piso2;
+}
+.calle3{
+	grid-area: piso3;
+}
+.calle4{
+	grid-area: piso4;
+}
+.calle5{
+	grid-area: piso5;
+}
+.cont .imgcalle{
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+/* cohete */
+.nave{
+	position: fixed;
+	width: 30%;
+	top:22%;
+	left: 6%;
+	z-index: 1;
+}
+
+.let{
+    /* top: 15%; */
+    position: absolute;
+    width: 18%;
+    top: 46%;
+    right: 0%;
+}
